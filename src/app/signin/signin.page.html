@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>signin</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/homeBack.jpg" alt="covidlogo">
+      <ion-card-title>Login if already registered!</ion-card-title>
+      <ion-card-subtitle>New user-click on signup</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-item>
+        <ion-form action="/">
+
+        
+        
+        <ion-label>UserName: </ion-label>
+        <ion-input placeholder="Username"></ion-input>
+      </ion-item>
+      <br>
+      <ion-item>
+        <ion-label>Password:  </ion-label>
+        <ion-input placeholder="Of length 8-16" type="Password"></ion-input>
+      </ion-item>
+      <br>
+      <ion-button (click)="LogMeIn()">Login</ion-button>
+    </ion-form>
+    </ion-card-content>
+
+  </ion-card>
+
+
+</ion-content>

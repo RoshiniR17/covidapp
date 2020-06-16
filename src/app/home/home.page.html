@@ -1,20 +1,24 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-card>
+  <ion-card-header>
+    <img src="assets/homeBack.jpg" alt="covidlogo">
+    <ion-card-title>Welcome to CovidCare</ion-card-title>
+    <ion-card-subtitle>Stay Home & Stay Safe</ion-card-subtitle>
+  </ion-card-header>
+</ion-card>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+  <ion-card-content>
+    Here you will be able to fix your appointments at the comfort of your home.
+  </ion-card-content>
+  
+    <ion-button (click)="Fix()">Fix an Appointment</ion-button>
+    <ion-content></ion-content>
+  

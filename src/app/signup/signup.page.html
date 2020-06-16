@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Signup</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h3>{{viewTitle}}</h3>
+  <ion-card>
+
+ 
+
+  <ion-item>
+    <ion-form action="/">
+
+    
+    
+    <ion-label>UserName: </ion-label>
+    <ion-input placeholder="Username"></ion-input>
+  </ion-item>
+  <br>
+ 
+
+  <ion-item>
+    <ion-label>Email:  </ion-label>
+    <ion-input placeholder="Email" type="Email"></ion-input>
+  </ion-item>
+
+  <br>
+  <ion-item>
+    <ion-label>City:  </ion-label>
+    <ion-input placeholder="City" type="City"></ion-input>
+  </ion-item>
+
+  <br>
+
+  <ion-item>
+    <ion-label>Mobileno:  </ion-label>
+    <ion-input placeholder="Mobileno" type="Mobileno"></ion-input>
+  </ion-item>
+  <br>
+
+  <ion-item>
+    <ion-label>Password:  </ion-label>
+    <ion-input placeholder="Of length 8-16" type="Password"></ion-input>
+  </ion-item>
+  <br>
+
+  <br>
+  <ion-button (click)="SignMeIn()">Signup</ion-button>
+</ion-form>
+</ion-card>
+
+</ion-content>
